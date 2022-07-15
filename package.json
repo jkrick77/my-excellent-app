@@ -1,0 +1,39 @@
+{
+  "name": "tmp",
+  "version": "1.0.0",
+  "description": "My amazing tmp application",
+  "homepage": "https://github.com/jkrick77/tmp#readme",
+  "bugs": "https://github.com/jkrick77/tmp/issues",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "keywords": [
+    "exist",
+    "exist-db",
+    "xml",
+    "xql",
+    "xquery"
+  ],
+  "author": {
+    "name": "jack_krick",
+    "email": "jkrick@gmail.com"
+  },
+  "license": "LGPL-3.0",
+  "scripts": {
+    "test": "mocha test/mocha/ --recursive --exit && mocha test/xqs/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jkrick77/tmp",
+    "license": "LGPL-3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "chai-xml": "^0.4.0",
+    "fs-extra": "^10.1.0",
+    "mocha": "^10.0.0",
+    "supertest": "^6.2.4",
+    "xmldoc": "^1.2.0",
+    "yeoman-assert": "^3.1.1"
+  }
+}

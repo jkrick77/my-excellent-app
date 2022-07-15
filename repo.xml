@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<meta 
+  xmlns="http://exist-db.org/xquery/repo">
+  <description>My amazing tmp application</description>
+  <author>jack_krick</author>
+  <website>http://beggarsopera.net</website>
+  <status>alpha</status>
+  <license>LGPL-3.0</license>
+  <copyright>true</copyright>
+  <type>library</type>
+  <prepare>pre-install.xq</prepare>
+  <finish>post-install.xq</finish>
+</meta>
